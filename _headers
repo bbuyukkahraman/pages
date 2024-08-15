@@ -13,7 +13,7 @@
   Permissions-Policy: microphone='self'; camera='self'; geolocation='self'; accelerometer=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
 
   # Access-Control-Allow-Origin
-  Access-Control-Allow-Origin: https://www.axoss.com
+  # Access-Control-Allow-Origin: https://www.example.com
 
   # Access-Control-Allow-Methods
   Access-Control-Allow-Methods: GET, POST, PUT, DELETE
