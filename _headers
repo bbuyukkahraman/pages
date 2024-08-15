@@ -16,10 +16,10 @@
   # Access-Control-Allow-Origin: https://www.example.com
 
   # Access-Control-Allow-Methods
-  Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+  # Access-Control-Allow-Methods: GET, POST, PUT, DELETE
 
   # Access-Control-Allow-Headers
-  Access-Control-Allow-Headers: Content-Type, Authorization
+  # Access-Control-Allow-Headers: Content-Type, Authorization
 
   # Cross-Origin-Embedder-Policy
   Cross-Origin-Embedder-Policy: require-corp
