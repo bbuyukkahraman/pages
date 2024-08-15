@@ -1,0 +1,52 @@
+# Tüm dosyalar için güvenlik başlıklarını uygula
+/*
+  # Strict-Transport-Security
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Content-Security-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self'
+
+  # X-Frame-Options
+  X-Frame-Options: SAMEORIGIN
+
+  # Permissions-Policy
+  Permissions-Policy: microphone='self'; camera='self'; geolocation='self'; accelerometer=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+
+  # Access-Control-Allow-Origin
+  Access-Control-Allow-Origin: https://www.axoss.com
+
+  # Access-Control-Allow-Methods
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+
+  # Access-Control-Allow-Headers
+  Access-Control-Allow-Headers: Content-Type, Authorization
+
+  # Cross-Origin-Embedder-Policy
+  Cross-Origin-Embedder-Policy: require-corp
+
+  # Cross-Origin-Opener-Policy
+  Cross-Origin-Opener-Policy: same-origin
+
+  # Cross-Origin-Resource-Policy
+  Cross-Origin-Resource-Policy: same-origin
+
+  # X-Content-Type-Options
+  X-Content-Type-Options: nosniff
+
+  # X-XSS-Protection
+  X-XSS-Protection: 1; mode=block
+
+  # Referrer-Policy
+  Referrer-Policy: no-referrer-when-downgrade
+
+  # Cache-Control
+  Cache-Control: no-store, no-cache, must-revalidate
+
+  # Pragma
+  Pragma: no-cache
+
+  # Expires
+  Expires: 0
+
+  # Content-Disposition
+  Content-Disposition: inline
